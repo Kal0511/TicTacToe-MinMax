@@ -1,0 +1,1 @@
+// document.getElementById('win').style.animation="spin2 4s linear 1";
