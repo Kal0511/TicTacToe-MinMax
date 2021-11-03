@@ -21,7 +21,7 @@ function clearScore(){
      setScore();
 }
 console.log(localStorage.getItem('p1Score'));
-if(localStorage.getItem('p1Score') !== null){
+if(localStorage.getItem('p1Score') === null){
     p1Score = 0;
     p2Score = 0;
     drawScore = 0;
