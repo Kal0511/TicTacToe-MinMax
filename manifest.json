@@ -1,0 +1,18 @@
+{
+  "short_name": "Tic Tac Toe",
+  "name": "Tic Tac Toe",
+  "start_url": "/minmax-tic-tac-toe/",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "theme-color": "#ffffff",
+  "background_color": "#000000",
+  "background-color": "#000000",
+  "description": "",
+  "icons": [
+    {
+      "src": "/tik.png",
+      "type": "image/png",
+      "sizes": "300x300"
+    }
+  ]
+}

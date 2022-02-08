@@ -1,3 +1,12 @@
+// import {Workbox} from 'https://storage.googleapis.com/workbox-cdn/releases/6.2.0/workbox-window.prod.mjs';
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/service-worker.js');
+        // const wb = new Workbox('/service-worker.js');
+        // wb.register();
+    });
+}
+
 let board = new Array(3);
 for (let i = 0; i < 3; i++) {
     board[i] = new Array(3);

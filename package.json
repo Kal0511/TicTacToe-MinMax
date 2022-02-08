@@ -1,0 +1,11 @@
+{
+  "name": "minmax-tic-tac-toe",
+  "version": "1.0.0",
+  "dependencies": {
+    "workbox-cacheable-response": "^6.4.2",
+    "workbox-expiration": "^6.4.2",
+    "workbox-google-analytics": "^6.4.2",
+    "workbox-routing": "^6.4.2",
+    "workbox-strategies": "^6.4.2"
+  }
+}
